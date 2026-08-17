@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>英雄一览 — 繁天录</title>
+  <link rel="stylesheet" href="css/style.css?v=20260817b">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-logo" href="index.html">繁天录 Online</a>
+    <nav class="site-nav"><a href="index.html">首页</a><a href="works.html">作品</a></nav>
+  </header>
+  <main>
+    <section class="section">
+      <div class="archive-header">
+        <div class="archive-title">
+          <div class="archive-small">HERO ARCHIVE</div>
+          <h1>英雄一览</h1>
+          <p class="archive-lead">从神话英雄到普通人物，<br>从银幕中央到时代记忆，<br>在这里重新阅读《繁天录》中的英雄谱系。</p>
+        </div>
+        <div class="archive-meta">
+          <div class="archive-id">繁天录 · 英雄档案</div>
+        </div>
+      </div>
+
+      <div class="search-region" aria-labelledby="search-region-heading">
+        <h2 id="search-region-heading">档案检索</h2>
+        <form role="search" class="heroes-controls" id="archive-search-form" aria-controls="heroes-list-root results-count">
+          <label for="filter-tag">谱系</label>
+          <select id="filter-tag" name="filter-tag"><option value="">全部</option></select>
+
+          <label for="filter-period">年代</label>
+          <select id="filter-period" name="filter-period"><option value="">全部</option></select>
+
+          <label for="filter-q">关键词</label>
+          <input id="filter-q" name="filter-q" placeholder="搜索姓名或简介" aria-label="搜索姓名或简介" />
+
+          <button type="button" id="filter-clear">清除筛选</button>
+        </form>
+        <div id="results-count" class="results-count" aria-live="polite">当前显示 0 位英雄</div>
+      </div>
+
+      <div style="height:28px"></div>
+      <ul id="heroes-list-root" class="heroes-list hero-card-list"></ul>
+      <section id="hero-detail-root" class="hero-detail"></section>
+    </section>
+  </main>
+  <footer class="site-footer"><p>繁天录 Online</p></footer>
+  <script src="js/main.js?v=20260817c"></script>
+</body>
+</html>
