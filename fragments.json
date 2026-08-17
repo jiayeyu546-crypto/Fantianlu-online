@@ -1,0 +1,65 @@
+[
+
+  { "id": "frag-hero-sunwukong", "source_id": "hero-sunwukong", "type": "hero", "text": "孙悟空，《大闹天宫》中的主角，形象来源于《西游记》，以大胆反抗、灵动动作与中国画风著称，建议参观时观看关键战斗片段以理解其动作设计。" },
+
+  { "id": "frag-hero-nezha", "source_id": "hero-nezha", "type": "hero", "text": "哪吒，《哪吒闹海》中的少年英雄，代表成长与反抗，适合亲子观众讨论责任与勇气。" },
+
+  { "id": "frag-hero-chenxiang", "source_id": "hero-chenxiang", "type": "hero", "text": "沉香，《宝莲灯》主角，叙事围绕救母與家族责任，常用于比较民间传说与动画改编差异的教学。" },
+
+  { "id": "frag-hero-tadpoles", "source_id": "hero-tadpoles", "type": "hero", "text": "小蝌蚪，《小蝌蚪找妈妈》中的主角，通过简洁画面与重复叙事传达寻找与成长主题，适合低龄互动展示。" },
+
+  { "id": "frag-hero-blackcat", "source_id": "hero-blackcat", "type": "hero", "text": "黑猫警长，电视动画系列主角，拟人化警长形象强调正义與集体协作，是1980年代儿童文化的标志。" },
+
+  { "id": "frag-hero-tianshanguzhu", "source_id": "hero-tianshanguzhu", "type": "hero", "text": "铁扇公主，中国早期动画《铁扇公主》中的重要角色，其制作背景与历史语境对研究早期动画学有重要意义。" },
+
+  { "id": "frag-hero-baisuzhen", "source_id": "hero-baisuzhen", "type": "hero", "text": "白素贞，白蛇传的核心角色，在不同动画改编中呈现多样化立场与情感，适合跨版本对比研究。" },
+
+  { "id": "frag-hero-yangjian", "source_id": "hero-yangjian", "type": "hero", "text": "杨戬（二郎神），在当代动画中被重新塑造，体现古典英雄在现代影像语言下的再造。" },
+
+  { "id": "frag-hero-jinhou", "source_id": "hero-jinhou", "type": "hero", "text": "金猴类角色，代表对经典猴类形象的再创作，关注视觉更新与形象延续。" },
+
+  { "id": "frag-hero-tianshu", "source_id": "hero-tianshu-protagonist", "type": "hero", "text": "《天书奇谭》中的角色群，寓言式的创作风格体现高度艺术化的叙事与象征性人物设计。" },
+
+  { "id": "frag-hero-trending-young", "source_id": "hero-trending-young", "type": "hero", "text": "潮流英雄指通过IP化与文创改造的当代形象，讨论文化记忆的商品化与再生产。" },
+
+
+
+  { "id": "frag-work-dnhq", "source_id": "work-dnhq", "type": "work", "text": "《大闹天宫》（1960s），以孙悟空为核心，结合中国画风与分镜设计，是研究民族性叙事与动画技艺的典型。" },
+
+  { "id": "frag-work-nzh", "source_id": "work-nzh", "type": "work", "text": "《哪吒闹海》（1979），讲述哪吒成长与反抗的故事，人物动作与节奏处理值得亲子导览推荐。" },
+
+  { "id": "frag-work-bld", "source_id": "work-bld", "type": "work", "text": "《宝莲灯》（改编），以沉香救母为核心叙事，适合讨论改编、家庭伦理与角色弧线。" },
+
+  { "id": "frag-work-renshengguo", "source_id": "work-renshengguo", "type": "work", "text": "《人参果》短片，展现早期动画改编策略与题材选择的倾向，具研究价值。" },
+
+  { "id": "frag-work-xktm", "source_id": "work-xktm", "type": "work", "text": "《小蝌蚪找妈妈》短片，简洁的画面语言与重复节奏对幼年观众有强烈的情感吸引力。" },
+
+  { "id": "frag-work-tsgz", "source_id": "work-tsgz", "type": "work", "text": "《铁扇公主》（1941），中国早期动画代表作，其制作背后的历史语境对展览叙事有重要意义。" },
+
+  { "id": "frag-work-whitesnake", "source_id": "work-whitesnake", "type": "work", "text": "当代白蛇改编（例如《白蛇：缘起》）将传统故事与现代影像语言结合，适合讨论改编策略与商业化路径。" },
+
+  { "id": "frag-work-yangjian", "source_id": "work-yangjian", "type": "work", "text": "以杨戬为代表的当代改编作品，呈现古典题材在现代语境下的视觉重塑与叙事延伸。" },
+
+  { "id": "frag-work-jinhou", "source_id": "work-jinhou", "type": "work", "text": "《金猴降妖》类作品尝试将中国传统形象与现代审美结合，适合分析形象再造策略。" },
+
+  { "id": "frag-work-tianshu", "source_id": "work-tianshu", "type": "work", "text": "《天书奇谭》是一部艺术性极强的动画，角色与叙事富含象征与隐喻，适合专题讲解。" },
+
+  { "id": "frag-work-blackcat", "source_id": "work-blackcat", "type": "work", "text": "《黑猫警长》系列强调正义与协作，是研究80年代中国儿童电视动画与社会化传播的关键作品。" },
+
+  { "id": "frag-work-whitelight", "source_id": "work-whitelight", "type": "work", "text": "《浪浪山小妖怪》为当代表达的案例，关注普通人物的英雄化，适合展示当代叙事转向。" },
+
+  { "id": "frag-work-changan", "source_id": "work-changan", "type": "work", "text": "《长安三万里》代表历史题材的当代动画，展现电影化叙事与传统题材的结合." }
+
+  ,{ "id": "frag-hero-artist-01", "source_id": "hero-artist-01", "type": "hero", "text": "艺术家形象用于引导观众从创作视角理解作品，建议在成人教育或高校导览中加入创作语境与技法讨论的短讲。" }
+
+  ,{ "id": "frag-hero-legend-02", "source_id": "hero-legend-02", "type": "hero", "text": "传说人物条目可用于连接神话语境与展览叙事，便于解释文化背景与跨版本改编差异。" }
+
+  ,{ "id": "frag-work-nzh-interpretation", "source_id": "work-nzh", "type": "work", "text": "对《哪吒闹海》的解读常聚焦于成长弧线與亲子叙事，展陈时可提供‘亲子讨论指南’以便现场解说员使用。" }
+
+  ,{ "id": "frag-work-dnhq-technique", "source_id": "work-dnhq", "type": "work", "text": "《大闹天宫》的动作设计与中国画意象结合是其技术亮点，建议在展区设置放大分镜与帧图以展示制作手法。" }
+
+  ,{ "id": "frag-work-provenance-01", "source_id": "work-dnhq", "type": "work", "text": "本次展览藏品来源包括国家档案馆与上海美术电影制片厂的借展影像素材，文献与海报为馆藏/借展混合。" }
+
+]
+
+

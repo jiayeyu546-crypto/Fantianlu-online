@@ -1,0 +1,142 @@
+﻿[
+  {
+    "id": "work-tsgz",
+    "title": "铁扇公主",
+    "year": 1941,
+    "lineage": "西游谱",
+    "synopsis": "《铁扇公主》（1941），中国早期动画代表作，其制作背后的历史语境对展览叙事有重要意义。",
+    "key_frames": []
+  },
+  {
+    "id": "work-dnhq",
+    "title": "大闹天宫",
+    "year": 1965,
+    "lineage": "西游谱",
+    "synopsis": "《大闹天宫》（1960s），以孙悟空为核心，结合中国画风与分镜设计，是研究民族性叙事与动画技艺的典型。",
+    "key_frames": [
+      { "timecode": "poster", "image_url": "public/images/dnhq-poster.png", "caption": "海报" }
+    ]
+  },
+  {
+    "id": "work-renshengguo",
+    "title": "人参果",
+    "year": 1979,
+    "lineage": "西游谱",
+    "synopsis": "《人参果》短片，展现早期动画改编策略与题材选择的倾向，具研究价值。",
+    "key_frames": [
+      { "timecode": "poster", "image_url": "public/images/renshengguo-poster.png", "caption": "海报" }
+    ]
+  },
+  {
+    "id": "work-jinhou",
+    "title": "金猴降妖",
+    "year": 1984,
+    "lineage": "西游谱",
+    "synopsis": "《金猴降妖》类作品尝试将中国传统形象与现代审美结合，适合分析形象再造策略。",
+    "key_frames": [
+      { "timecode": "poster", "image_url": "public/images/jinhou-poster.jpg", "caption": "海报" }
+    ]
+  },
+  {
+    "id": "work-whitelight",
+    "title": "浪浪山小妖怪",
+    "year": 2025,
+    "lineage": "西游谱",
+    "synopsis": "《浪浪山小妖怪》为当代表达的案例，关注普通人物的英雄化，适合展示当代叙事转向。",
+    "key_frames": []
+  },
+  {
+    "id": "work-nzh",
+    "title": "哪吒闹海",
+    "year": 1979,
+    "lineage": "封神谱",
+    "synopsis": "《哪吒闹海》（1979），讲述哪吒成长与反抗的故事，人物动作与节奏处理值得亲子导览推荐。",
+    "key_frames": [
+      { "timecode": "poster", "image_url": "public/images/nzh-poster.png", "caption": "海报" }
+    ]
+  },
+  {
+    "id": "work-nezha-legend",
+    "title": "哪吒传奇",
+    "year": 2003,
+    "lineage": "封神谱",
+    "synopsis": "",
+    "key_frames": [
+      { "timecode": "poster", "image_url": "宣传用图/海报类/哪吒传奇.webp", "caption": "海报" }
+    ]
+  },
+  {
+    "id": "work-tianshu",
+    "title": "天书奇谭",
+    "year": 1985,
+    "lineage": "众生谱",
+    "synopsis": "《天书奇谭》是一部艺术性极强的动画，角色与叙事富含象征与隐喻，适合专题讲解。",
+    "key_frames": [
+      { "timecode": "poster", "image_url": "public/images/tianshu-poster.png", "caption": "海报" }
+    ]
+  },
+  {
+    "id": "work-bld",
+    "title": "宝莲灯",
+    "year": 1999,
+    "lineage": "众生谱",
+    "synopsis": "《宝莲灯》（改编），以沉香救母为核心叙事，适合讨论改编、家庭伦理与角色弧线。",
+    "key_frames": [
+      { "timecode": "poster", "image_url": "public/images/bld-poster.png", "caption": "海报" }
+    ]
+  },
+  {
+    "id": "work-whitesnake",
+    "title": "白蛇：缘起",
+    "year": 2019,
+    "lineage": "追光谱",
+    "synopsis": "当代白蛇改编（例如《白蛇：缘起》）将传统故事与现代影像语言结合，适合讨论改编策略与商业化路径。",
+    "key_frames": []
+  },
+  {
+    "id": "work-qingshe",
+    "title": "白蛇：青蛇劫起",
+    "year": 2021,
+    "lineage": "追光谱",
+    "synopsis": "",
+    "key_frames": [
+      { "timecode": "poster", "image_url": "宣传用图/海报类/白蛇青蛇劫起.jpg", "caption": "海报" }
+    ]
+  },
+  {
+    "id": "work-yangjian",
+    "title": "新神榜：杨戬",
+    "year": 2022,
+    "lineage": "追光谱",
+    "synopsis": "以杨戬为代表的当代改编作品，呈现古典题材在现代语境下的视觉重塑与叙事延伸。",
+    "key_frames": []
+  },
+  {
+    "id": "work-changan",
+    "title": "长安三万里",
+    "year": 2023,
+    "lineage": "追光谱",
+    "synopsis": "《长安三万里》代表历史题材的当代动画，展现电影化叙事与传统题材的结合.",
+    "key_frames": []
+  },
+  {
+    "id": "work-whitesnake-fusheng",
+    "title": "白蛇：浮生",
+    "year": 2024,
+    "lineage": "追光谱",
+    "synopsis": "",
+    "key_frames": [
+      { "timecode": "poster", "image_url": "宣传用图/海报类/白蛇浮生.jpg", "caption": "海报" }
+    ]
+  },
+  {
+    "id": "work-sanguo-zhengluoyang",
+    "title": "三国第一部：争洛阳",
+    "year": 2026,
+    "lineage": "追光谱",
+    "synopsis": "",
+    "key_frames": [
+      { "timecode": "poster", "image_url": "宣传用图/海报类/三国第一部争洛阳.jpg", "caption": "海报" }
+    ]
+  }
+]
