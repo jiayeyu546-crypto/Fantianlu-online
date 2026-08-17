@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="《繁天录 Online》——基于《中国动画英雄潮流特展》内容制作的个人数字策展与前端学习项目。">
+  <title>繁天录 Online｜中国动画英雄潮流特展</title>
+  <link rel="stylesheet" href="css/style.css?v=20260817b">
+</head>
+<body>
+  <!-- 顶部导航：桌面端横向排列，手机端通过按钮展开。 -->
+  <header class="site-header">
+    <a class="site-logo" href="#lobby" aria-label="返回数字序厅">
+      <span class="site-logo__mark">繁</span>
+      <span>繁天录 Online</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-button__label">菜单</span>
+      <span class="menu-button__lines" aria-hidden="true"></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="主导航">
+      <a href="#lobby">序厅</a>
+      <a href="#overview">展览总览</a>
+      <a href="#journey-west">西游谱</a>
+      <a href="#fengshen">封神谱</a>
+      <a href="#ordinary-heroes">众生谱</a>
+      <a href="#light-chaser">追光谱</a>
+      <a href="#creators">英雄留名</a>
+      <a href="#trend">潮流英雄</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 数字序厅主视觉：不使用未经授权的动画图片。 -->
+    <section class="hero" id="lobby" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="eyebrow">Digital Foyer · 数字序厅</p>
+        <h1 id="hero-title">繁天录</h1>
+        <p class="hero__subtitle">中国动画英雄潮流特展</p>
+        <p class="hero__english">We Are All Heroes</p>
+        <p class="hero__summary">
+          银幕之上、幕布之后、日常生活里，重新观看中国动画英雄如何随时代改变面貌。
+        </p>
+        <a class="button" href="#information">进入展览</a>
+      </div>
+
+      <div class="hero__art" aria-hidden="true">
+        <div class="hero__poster" aria-hidden="true"></div>
+        <span class="hero__number">FTL / ONLINE / 2026</span>
+        <span class="hero__screen-label">银幕 / 档案 / 谱系 / 潮流</span>
+      </div>
+    </section>
+
+    <!-- 正式基本信息 -->
+    <section class="information section" id="information" aria-labelledby="information-title">
+      <div class="section-heading">
+        <p class="section-number">00 / INFORMATION</p>
+        <h2 id="information-title">基本信息</h2>
+      </div>
+
+      <dl class="information-grid">
+        <div><dt>展览时间</dt><dd>2026年7月10日—9月6日</dd></div>
+        <div><dt>展览地点</dt><dd>浙江美术馆4、5、6号厅及室外空间</dd></div>
+        <div><dt>展览规模</dt><dd>三大展厅、四个核心板块</dd></div>
+        <div><dt>展品数量</dt><dd><strong>576</strong> 件</dd></div>
+      </dl>
+      <p class="information-types">展品类型：创作手稿、赛璐珞画稿、历史文献、经典动画拷贝等</p>
+    </section>
+
+    <!-- 策展前言：使用适合首页阅读的压缩版本。 -->
+    <section class="introduction section" id="introduction" aria-labelledby="introduction-title">
+      <div class="section-heading">
+        <p class="section-number">01 / CURATORIAL NOTE</p>
+        <h2 id="introduction-title">英雄，从未缺席</h2>
+        <span class="reading-placeholder" aria-disabled="true">阅读全文 · 后续开放</span>
+      </div>
+
+      <div class="introduction__text">
+        <p>中国动画百年历程中，英雄形象始终是民族精神的重要载体。从《铁扇公主》《大闹天宫》《哪吒闹海》，到《浪浪山小妖怪》，中国动画英雄跨越时代，与一代代观众的精神世界相互回应。</p>
+        <p>《繁天录——中国动画英雄潮流特展》以三大展厅、四个板块和576件展品为基础，通过创作手稿、赛璐珞画稿、历史文献和经典动画拷贝，呈现中国动画近百年来英雄形象的发展脉络。</p>
+        <p>英雄不仅存在于银幕中央，也存在于幕后创作者的画笔、分镜和动作设计中；同时，经典动画形象正通过潮玩、沉浸体验和当代文创重新进入日常生活。银幕上、幕布后、生活里，英雄从未缺席。</p>
+      </div>
+    </section>
+
+    <!-- 三大展厅总览 -->
+    <section class="overview section" id="overview" aria-labelledby="overview-title">
+      <div class="section-heading section-heading--row">
+        <div>
+          <p class="section-number">02 / THREE GALLERIES</p>
+          <h2 id="overview-title">展览总览</h2>
+        </div>
+        <p>三大展厅构成由英雄谱系、当代表达走向放映记忆的参观路径。</p>
+      </div>
+
+      <div class="overview-grid">
+        <article class="overview-card">
+          <p class="archive-code">HALL 06 / 曜光厅</p>
+          <div class="overview-card__number">01</div>
+          <h3>英雄本色</h3>
+          <p>由西游谱、封神谱、众生谱三条谱系组成，观看经典文本与普通人物如何在动画中生成英雄形象。</p>
+          <p class="overview-card__route">西游谱 → 封神谱 → 众生谱</p>
+        </article>
+        <article class="overview-card">
+          <p class="archive-code">HALL 04 / 追光厅</p>
+          <div class="overview-card__number">02</div>
+          <h3>当世群像</h3>
+          <p>以追光谱为核心，观察中国动画从神话新编走向历史叙事和当代表达。</p>
+          <p class="overview-card__route">第四板块 / 追光谱</p>
+        </article>
+        <article class="overview-card">
+          <p class="archive-code">HALL 05 / 浙美放映厅</p>
+          <div class="overview-card__number">03</div>
+          <h3>繁星满天</h3>
+          <p>以追光专场和美影厂专场连接经典、当下与几代观众共同的文化记忆。</p>
+          <p class="overview-card__route">追光专场 / 美影厂专场</p>
+        </article>
+      </div>
+
+      <!-- 精选英雄（由 data/heroes.json 驱动） -->
+      <section class="featured-heroes section" id="featured-heroes" aria-labelledby="featured-heroes-title">
+        <div class="section-heading">
+          <p class="section-number">03 / HERO HIGHLIGHTS</p>
+          <h2 id="featured-heroes-title">精选英雄</h2>
+        </div>
+        <div id="featured-heroes-list" class="featured-grid">
+          <!-- JS 将在此渲染英雄卡片 -->
+        </div>
+        <p class="featured-note">数据驱动示例：从 <a href="heroes.html">全部英雄</a> 查看完整列表。</p>
+      </section>
+
+      <div class="screening-units" aria-label="繁星满天放映内容">
+        <div>
+          <p class="archive-code">SCREENING A</p>
+          <h3>追光专场</h3>
+          <p>《白蛇：缘起》 · 《白蛇：青蛇劫起》 · 《白蛇：浮生》 · 《新神榜：杨戬》 · 《长安三万里》 · 《三国第一部：争洛阳》</p>
+        </div>
+        <div>
+          <p class="archive-code">SCREENING B</p>
+          <h3>美影厂专场</h3>
+          <p>《大闹天宫》 · 《人参果》 · 《金猴降妖》 · 《哪吒闹海》 · 《天书奇谭》 · 《宝莲灯》</p>
+        </div>
+      </div>
+      <p class="overview-note">经典动画重新亮起时，被唤醒的不只是银幕中的故事，还有几代观众共同的文化记忆。繁星满天既是一处放映空间，也是一条连接经典、当下与观众情感的光影通道。</p>
+    </section>
+
+    <!-- 四个核心板块：统一使用谱系式版面。 -->
+    <div class="lineage" aria-label="四个核心板块">
+      <!-- 第一板块｜西游谱：第二阶段完成的数字叙事模板。 -->
+      <section class="lineage-section lineage-section--featured section" id="journey-west" aria-labelledby="journey-west-title">
+        <!-- 板块开场 -->
+        <header class="journey-opening">
+          <div class="journey-opening__meta">
+            <p class="lineage-number">01</p>
+            <p class="archive-code">第一板块 / 曜光厅</p>
+            <p class="lineage-years">1941—1984</p>
+          </div>
+          <div class="journey-opening__text">
+            <p class="journey-opening__category">英雄本色</p>
+            <h2 id="journey-west-title">西游谱</h2>
+            <p class="journey-opening__question">从神猴到小妖，一条取经路如何写入中国动画的百年英雄想象？</p>
+            <p class="journey-opening__lead">西行路上，英雄不断改变面貌。从民族危难中的团结与救亡，到新中国动画中的反抗与自信，西游故事一次次进入银幕，也一次次回应时代对于英雄的想象。</p>
+          </div>
+        </header>
+
+        <!-- 五个作品节点使用相同结构，之后可以复制到其他谱系。 -->
+        <div class="journey-timeline" aria-label="西游谱1941年至2025年作品时间线">
+          <article class="timeline-item">
+            <header class="timeline-item__header">
+              <time datetime="1941">1941</time>
+              <div>
+                <p class="timeline-item__stage">民族危难中的动画英雄</p>
+                <h3>《铁扇公主》</h3>
+              </div>
+            </header>
+            <div class="timeline-item__content">
+              <div class="timeline-item__text">
+                <p>在民族危难与战争背景下，《铁扇公主》以西游故事连接团结、救亡与抵抗的时代情绪。动画中的火焰山不只是神话中的险阻，也成为现实困境的一种银幕投射。</p>
+                <dl class="exhibit-label">
+                  <div><dt>作品名称</dt><dd>《铁扇公主》</dd></div>
+                  <div><dt>年份</dt><dd>1941</dd></div>
+                  <div><dt>所属谱系</dt><dd>西游谱</dd></div>
+                </dl>
+              </div>
+              <figure class="timeline-item__image timeline-item__image--one timeline-item__image--contain">
+                <img src="/public/images/hero-tianshanguzhu.jpg" alt="《铁扇公主》海报">
+              </figure>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <header class="timeline-item__header">
+              <time datetime="1965">1965</time>
+              <div>
+                <p class="timeline-item__stage">新生民族的反抗精神</p>
+                <h3>《大闹天宫》</h3>
+              </div>
+            </header>
+            <div class="timeline-item__content">
+              <div class="timeline-item__text">
+                <p>孙悟空在《大闹天宫》中成为中国动画最具代表性的英雄形象之一。他的桀骜、勇气与反抗精神，既来自传统神话，也回应着新中国成立后昂扬自信的社会情绪。</p>
+                <dl class="exhibit-label">
+                  <div><dt>作品名称</dt><dd>《大闹天宫》</dd></div>
+                  <div><dt>年份</dt><dd>1965</dd></div>
+                  <div><dt>所属谱系</dt><dd>西游谱</dd></div>
+                </dl>
+              </div>
+              <figure class="timeline-item__image timeline-item__image--two timeline-item__image--contain">
+                <img src="/public/images/dnhq-poster.png" alt="《大闹天宫》海报">
+              </figure>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <header class="timeline-item__header">
+              <time datetime="1979">1979</time>
+              <div>
+                <p class="timeline-item__stage">取经路上的成熟与克制</p>
+                <h3>《人参果》</h3>
+              </div>
+            </header>
+            <div class="timeline-item__content">
+              <div class="timeline-item__text">
+                <p>《人参果》延续西游故事，也让孙悟空呈现出更沉稳的一面。英雄不再只依靠力量解决问题，而是在规则、误解与责任之间学习判断和承担。</p>
+                <dl class="exhibit-label">
+                  <div><dt>作品名称</dt><dd>《人参果》</dd></div>
+                  <div><dt>年份</dt><dd>1979</dd></div>
+                  <div><dt>所属谱系</dt><dd>西游谱</dd></div>
+                </dl>
+              </div>
+              <figure class="timeline-item__image timeline-item__image--three timeline-item__image--contain">
+                <img src="/public/images/renshengguo-poster.png" alt="《人参果》海报">
+              </figure>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <header class="timeline-item__header">
+              <time datetime="1984">1984</time>
+              <div>
+                <p class="timeline-item__stage">民族形式与现代语言</p>
+                <h3>《金猴降妖》</h3>
+              </div>
+            </header>
+            <div class="timeline-item__content">
+              <div class="timeline-item__text">
+                <p>《金猴降妖》在传统西游叙事中融入更具现代感的视觉与声音表达。作品体现了中国动画在民族化道路上不断吸收新语言、寻找新坐标的探索。</p>
+                <dl class="exhibit-label">
+                  <div><dt>作品名称</dt><dd>《金猴降妖》</dd></div>
+                  <div><dt>年份</dt><dd>1984</dd></div>
+                  <div><dt>所属谱系</dt><dd>西游谱</dd></div>
+                </dl>
+              </div>
+              <figure class="timeline-item__image timeline-item__image--four timeline-item__image--contain">
+                <img src="/public/images/jinhou-poster.jpg" alt="《金猴降妖》海报">
+              </figure>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- 板块总结 -->
+        <footer class="journey-conclusion">
+          <p class="archive-code">01 / CONCLUSION</p>
+          <h3>英雄为何仍在西行？</h3>
+          <div>
+            <p>从《铁扇公主》的黑白光影，到《金猴降妖》的现代探索，西游谱记录的不只是孙悟空和取经队伍的故事，也记录着中国动画如何不断重新理解英雄。</p>
+            <p>英雄可以是奋起反抗的神猴，也可以是在取经路上不断学习与承担的伙伴。时代改变了英雄的面貌，却没有改变人们对于出发、坚持和改变命运的期待。</p>
+          </div>
+          <span class="next-section" aria-disabled="true">下一板块：封神谱</span>
+        </footer>
+      </section>
+
+      <section class="lineage-section section" id="fengshen" aria-labelledby="fengshen-title">
+        <div class="lineage-section__meta">
+          <p class="lineage-number">02</p>
+          <p class="archive-code">曜光厅 / 英雄本色</p>
+          <p class="lineage-years">1979—2003</p>
+        </div>
+        <div class="lineage-section__body">
+          <header class="lineage-opening">
+            <p class="lineage-opening__category">英雄本色</p>
+            <h2 id="fengshen-title">封神谱</h2>
+            <p class="lineage-opening__question">哪吒的故事如何让“个体”持续面对秩序与命运？</p>
+            <p class="lineage-opening__lead">哪吒的故事承载着中国动画中最深刻的个体命题。从剔骨还父、割肉还母的悲怆，到少年面对秩序与命运时的选择，哪吒成为一代代观众理解反抗、自由和责任的重要形象。</p>
+          </header>
+          <ul class="work-list" aria-label="封神谱代表作品">
+            <li><span>1979</span>《哪吒闹海》</li>
+            <li><span>2003</span>《哪吒传奇》</li>
+          </ul>
+          <div class="journey-timeline" aria-label="封神谱1979年至2003年作品时间线">
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <time datetime="1979">1979</time>
+                <div>
+                  <p class="timeline-item__stage">个体、反抗与牺牲</p>
+                  <h3>《哪吒闹海》</h3>
+                </div>
+              </header>
+              <div class="timeline-item__content">
+                <div class="timeline-item__text">
+                  <p>《哪吒闹海》将古老的哪吒传说转化为一场关于个体、秩序与责任的现代叙事。哪吒面对的不只是龙王的压迫，也是在父权、规则与自我选择之间的冲突。</p>
+                  <p>影片最具力量的部分，并不依赖激烈的视觉刺激。剔骨还父、割肉还母的悲剧性场面通过极为克制的动画语言呈现，让少年的反抗从神话传奇转化为关于自由、责任与牺牲的人性叩问。</p>
+                  <p>在中国动画英雄谱系中，哪吒因此成为一个具有特殊意义的形象：英雄并不是因为拥有力量而成为英雄，而是在面对不公和命运时，仍然选择承担自己的决定。</p>
+                  <dl class="exhibit-label">
+                    <div><dt>作品名称</dt><dd>《哪吒闹海》</dd></div>
+                    <div><dt>年份</dt><dd>1979</dd></div>
+                    <div><dt>所属谱系</dt><dd>封神谱</dd></div>
+                  </dl>
+                </div>
+                <figure class="timeline-item__image timeline-item__image--contain">
+                  <img src="/public/images/nzh-poster.png" alt="《哪吒闹海》海报">
+                </figure>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <time datetime="2003">2003</time>
+                <div>
+                  <p class="timeline-item__stage">少年英雄的成长叙事</p>
+                  <h3>《哪吒传奇》</h3>
+                </div>
+              </header>
+              <div class="timeline-item__content">
+                <div class="timeline-item__text">
+                  <p>进入电视动画时代，哪吒的英雄形象也发生了变化。《哪吒传奇》弱化了原有神话中沉重的悲剧色彩，将哪吒重新塑造成一个更加鲜明、活泼且具有成长性的少年英雄。</p>
+                  <p>与《哪吒闹海》中关于牺牲与反抗的集中表达相比，这里的英雄更多是在一次次冒险、选择与关系中逐渐成长。亲情、友情、责任和正义共同进入英雄叙事，也让哪吒更接近年轻观众的日常经验。</p>
+                  <p>从1979到2003，同一个神话人物的变化，也反映出中国动画对于“少年英雄”的理解正在从悲剧性的抗争，逐渐转向成长性的自我建立。</p>
+                  <dl class="exhibit-label">
+                    <div><dt>作品名称</dt><dd>《哪吒传奇》</dd></div>
+                    <div><dt>年份</dt><dd>2003</dd></div>
+                    <div><dt>所属谱系</dt><dd>封神谱</dd></div>
+                  </dl>
+                </div>
+                <figure class="timeline-item__image timeline-item__image--contain">
+                  <img src="宣传用图/海报类/哪吒传奇.webp" alt="《哪吒传奇》海报">
+                </figure>
+              </div>
+            </article>
+          </div>
+
+          <footer class="journey-conclusion">
+            <p class="archive-code">02 / CONCLUSION</p>
+            <h3>哪吒为何一再归来？</h3>
+            <div>
+              <p>从《哪吒闹海》到《哪吒传奇》，哪吒始终不是一个安于既定秩序的角色。</p>
+              <p>时代不断改变他的面貌，但反抗、选择和成长始终构成这一英雄形象的核心。哪吒真正面对的，也从来不只是神话中的敌人，而是“我应该成为怎样的人”这一不断被重新提出的问题。</p>
+            </div>
+            <span class="next-section" aria-disabled="true">下一板块：众生谱</span>
+          </footer>
+        </div>
+      </section>
+
+      <section class="lineage-section section" id="ordinary-heroes" aria-labelledby="ordinary-heroes-title">
+        <div class="lineage-section__meta">
+          <p class="lineage-number">03</p>
+          <p class="archive-code">曜光厅 / 英雄本色</p>
+          <p class="lineage-years">1985—2025</p>
+        </div>
+        <div class="lineage-section__body">
+          <header class="lineage-opening">
+            <p class="lineage-opening__category">英雄本色</p>
+            <h2 id="ordinary-heroes-title">众生谱</h2>
+            <p class="lineage-opening__question">当英雄走下神坛，普通人如何成为自己的英雄？</p>
+            <p class="lineage-opening__lead">英雄不只存在于神佛仙圣之中。蛋生、沉香和浪浪山上的普通小妖，都在困境、选择和成长中走向自己的英雄时刻。众生谱关注的，正是那些在命运缝隙中挺身而出的普通人物。</p>
+          </header>
+          <ul class="work-list" aria-label="众生谱代表作品">
+            <li><span>1985</span>《天书奇谭》</li>
+            <li><span>1999</span>《宝莲灯》</li>
+            <li><span>2025</span>《浪浪山小妖怪》</li>
+          </ul>
+          <div class="journey-timeline" aria-label="众生谱1985年至2025年作品时间线">
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <time datetime="1985">1985</time>
+                <div>
+                  <p class="timeline-item__stage">众生、秩序与民间想象</p>
+                  <h3>《天书奇谭》</h3>
+                </div>
+              </header>
+              <div class="timeline-item__content">
+                <div class="timeline-item__text">
+                  <p>《天书奇谭》改编自《平妖传》，却没有简单重复传统神魔故事。影片塑造了袁公、蛋生、狐妖以及小皇帝等一组性格鲜明的角色，让神话世界呈现出复杂而生动的“众生相”。</p>
+                  <p>蛋生并不是传统意义上腾云驾雾的英雄。他从未知世界中诞生，在学习、判断和行动中逐渐承担起自己的责任。袁公则以违背天规的方式把知识带到人间，让“正义”与“规则”之间不再拥有简单答案。</p>
+                  <p>英雄因此不再只是预先被赋予神性的角色，而是在复杂世界中通过自己的选择逐渐获得意义。</p>
+                  <dl class="exhibit-label">
+                    <div><dt>作品名称</dt><dd>《天书奇谭》</dd></div>
+                    <div><dt>年份</dt><dd>1985</dd></div>
+                    <div><dt>所属谱系</dt><dd>众生谱</dd></div>
+                  </dl>
+                </div>
+                <figure class="timeline-item__image timeline-item__image--contain">
+                  <img src="/public/images/tianshu-poster.png" alt="《天书奇谭》海报">
+                </figure>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <time datetime="1999">1999</time>
+                <div>
+                  <p class="timeline-item__stage">从凡人少年到英雄</p>
+                  <h3>《宝莲灯》</h3>
+                </div>
+              </header>
+              <div class="timeline-item__content">
+                <div class="timeline-item__text">
+                  <p>《宝莲灯》把“劈山救母”的传统故事重新置于现代动画电影的叙事方式之中。</p>
+                  <p>沉香并非天生拥有英雄的身份。他最初只是一个寻找母亲的少年，在一次次失败、学习和选择中获得力量，也逐渐理解力量背后的责任。</p>
+                  <p>英雄的形成因此成为一个成长过程。亲情是他出发的原因，而真正让他成为英雄的，是面对困难时仍然选择继续前行。</p>
+                  <dl class="exhibit-label">
+                    <div><dt>作品名称</dt><dd>《宝莲灯》</dd></div>
+                    <div><dt>年份</dt><dd>1999</dd></div>
+                    <div><dt>所属谱系</dt><dd>众生谱</dd></div>
+                  </dl>
+                </div>
+                <figure class="timeline-item__image timeline-item__image--contain">
+                  <img src="宣传用图/海报类/宝莲灯.jpeg" alt="《宝莲灯》海报">
+                </figure>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <time datetime="2025">2025</time>
+                <div>
+                  <p class="timeline-item__stage">普通人的英雄时刻</p>
+                  <h3>《浪浪山小妖怪》</h3>
+                </div>
+              </header>
+              <div class="timeline-item__content">
+                <div class="timeline-item__text">
+                  <p>到了《浪浪山小妖怪》，镜头进一步离开传统英雄的聚光灯。</p>
+                  <p>故事关注的不再只是孙悟空和取经队伍，而是那些原本只能站在宏大故事边缘的小人物。普通的小妖同样拥有梦想，也同样面对生活中的困境、犹豫与选择。</p>
+                  <p>这一变化意味着中国动画中的英雄叙事进一步走向普通人。英雄不一定拥有与生俱来的力量，也不一定完成惊天动地的事业。对于平凡人物而言，愿意出发、愿意坚持，本身就可能成为一个英雄时刻。</p>
+                  <dl class="exhibit-label">
+                    <div><dt>作品名称</dt><dd>《浪浪山小妖怪》</dd></div>
+                    <div><dt>年份</dt><dd>2025</dd></div>
+                    <div><dt>所属谱系</dt><dd>众生谱</dd></div>
+                  </dl>
+                </div>
+                <figure class="timeline-item__image timeline-item__image--contain">
+                  <img src="宣传用图/海报类/浪浪山小妖怪.jpg" alt="《浪浪山小妖怪》海报">
+                </figure>
+              </div>
+            </article>
+          </div>
+
+          <footer class="journey-conclusion">
+            <p class="archive-code">03 / CONCLUSION</p>
+            <h3>英雄必须与众不同吗？</h3>
+            <div>
+              <p>从蛋生到沉香，再到浪浪山上的普通小妖，中国动画逐渐把英雄从神坛带回人群。</p>
+              <p>他们会害怕、会失败、会犹豫，也需要在现实的限制中寻找自己的道路。</p>
+              <p>众生谱所记录的，正是这种变化：英雄不再只是被仰望的人，也可以是每一个在平凡生活中仍然选择向前的人。</p>
+            </div>
+            <span class="next-section" aria-disabled="true">下一板块：追光谱</span>
+          </footer>
+        </div>
+      </section>
+
+      <section class="lineage-section section" id="light-chaser" aria-labelledby="light-chaser-title">
+        <div class="lineage-section__meta">
+          <p class="lineage-number">04</p>
+          <p class="archive-code">追光厅 / 当世群像</p>
+          <p class="lineage-years">2019—2026</p>
+        </div>
+        <div class="lineage-section__body">
+          <header class="lineage-opening">
+            <p class="lineage-opening__category">当世群像</p>
+            <h2 id="light-chaser-title">追光谱</h2>
+            <p class="lineage-opening__question">从神话新编到历史人物，当代动画如何重新塑造英雄？</p>
+            <p class="lineage-opening__lead">从神话传说的重新讲述，到历史人物的当代塑造，追光动画尝试让传统文化进入今天的影像语言。英雄也不再只是既定的传奇人物，而是在时代洪流中不断挣扎、选择和成长的人。</p>
+          </header>
+          <ul class="work-list" aria-label="追光谱代表作品">
+            <li><span>2019</span>《白蛇：缘起》</li>
+            <li><span>2021</span>《白蛇：青蛇劫起》</li>
+            <li><span>2022</span>《新神榜：杨戬》</li>
+            <li><span>2023</span>《长安三万里》</li>
+            <li><span>2024</span>《白蛇：浮生》</li>
+            <li><span>2026</span>《三国第一部：争洛阳》</li>
+          </ul>
+          <span class="reading-placeholder" aria-disabled="true">继续阅读 · 内容待完善</span>
+          <div class="journey-timeline">
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <time datetime="2019">2019</time>
+                <div>
+                  <p class="timeline-item__stage">当代神话重述</p>
+                  <h3>《白蛇：缘起》</h3>
+                </div>
+              </header>
+              <div class="timeline-item__content">
+                <div class="timeline-item__text">
+                  <p>作为近年的国民级神话新编，《白蛇：缘起》以东方美学与现代叙事重塑经典人物，探讨记忆与情感的传承。</p>
+                  <dl class="exhibit-label">
+                    <div><dt>作品名称</dt><dd>《白蛇：缘起》</dd></div>
+                    <div><dt>年份</dt><dd>2019</dd></div>
+                    <div><dt>所属谱系</dt><dd>追光谱</dd></div>
+                  </dl>
+                </div>
+                <figure class="timeline-item__image timeline-item__image--contain">
+                  <img src="宣传用图/海报类/白蛇缘起.jpg" alt="白蛇：缘起 海报">
+                </figure>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <time datetime="2021">2021</time>
+                <div>
+                  <p class="timeline-item__stage">神话延展与视觉革新</p>
+                  <h3>《白蛇：青蛇劫起》</h3>
+                </div>
+              </header>
+              <div class="timeline-item__content">
+                <div class="timeline-item__text">
+                  <p>继续探索白蛇传说的可能性，以更为成熟的叙事和影像技巧呈现角色的冲突与自我救赎。</p>
+                  <dl class="exhibit-label">
+                    <div><dt>作品名称</dt><dd>《白蛇：青蛇劫起》</dd></div>
+                    <div><dt>年份</dt><dd>2021</dd></div>
+                    <div><dt>所属谱系</dt><dd>追光谱</dd></div>
+                  </dl>
+                </div>
+                <figure class="timeline-item__image timeline-item__image--contain">
+                  <img src="宣传用图/海报类/白蛇青蛇劫起.jpg" alt="白蛇：青蛇劫起 海报">
+                </figure>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <time datetime="2024">2024</time>
+                <div>
+                  <p class="timeline-item__stage">当代续作</p>
+                  <h3>《白蛇：浮生》</h3>
+                </div>
+              </header>
+              <div class="timeline-item__content">
+                <div class="timeline-item__text">
+                  <p>以新的叙事实验延续白蛇世界的可能性，讨论命运、记忆与跨世代的情感联系。</p>
+                  <dl class="exhibit-label">
+                    <div><dt>作品名称</dt><dd>《白蛇：浮生》</dd></div>
+                    <div><dt>年份</dt><dd>2024</dd></div>
+                    <div><dt>所属谱系</dt><dd>追光谱</dd></div>
+                  </dl>
+                </div>
+                <figure class="timeline-item__image timeline-item__image--contain">
+                  <img src="宣传用图/海报类/白蛇浮生.jpg" alt="白蛇：浮生 海报">
+                </figure>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <time datetime="2023">2023</time>
+                <div>
+                  <p class="timeline-item__stage">历史影像与都市记忆</p>
+                  <h3>《长安三万里》</h3>
+                </div>
+              </header>
+              <div class="timeline-item__content">
+                <div class="timeline-item__text">
+                  <p>以史诗式视角重构长安的文化记忆，影像语言与叙事深度赢得广泛关注。</p>
+                  <dl class="exhibit-label">
+                    <div><dt>作品名称</dt><dd>《长安三万里》</dd></div>
+                    <div><dt>年份</dt><dd>2023</dd></div>
+                    <div><dt>所属谱系</dt><dd>追光谱</dd></div>
+                  </dl>
+                </div>
+                <figure class="timeline-item__image timeline-item__image--contain">
+                  <img src="宣传用图/海报类/长安三万里.jpg" alt="长安三万里 海报">
+                </figure>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <time datetime="2026">2026</time>
+                <div>
+                  <p class="timeline-item__stage">历史叙事新作</p>
+                  <h3>《三国第一部：争洛阳》</h3>
+                </div>
+              </header>
+              <div class="timeline-item__content">
+                <div class="timeline-item__text">
+                  <p>以史书与传说为创作源泉，将三国题材以动画影像进行当代叙事实验。</p>
+                  <dl class="exhibit-label">
+                    <div><dt>作品名称</dt><dd>《三国第一部：争洛阳》</dd></div>
+                    <div><dt>年份</dt><dd>2026</dd></div>
+                    <div><dt>所属谱系</dt><dd>追光谱</dd></div>
+                  </dl>
+                </div>
+                <figure class="timeline-item__image timeline-item__image--contain">
+                  <img src="宣传用图/海报类/三国第一部争洛阳.jpg" alt="三国：争洛阳 海报">
+                </figure>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- 英雄留名：暂不列出未经确认的创作者名单。 -->
+    <section class="creators section" id="creators" aria-labelledby="creators-title">
+      <div class="section-heading">
+        <p class="section-number">05 / THE HEROES BEHIND THE SCREEN</p>
+        <h2 id="creators-title">英雄留名</h2>
+      </div>
+      <div class="creators__statement">
+        <p class="creators__lead">银幕之上，有齐天大圣的七十二变，也有少年哪吒的逆天改命。</p>
+        <div>
+          <p>银幕背后，一张分镜、一幅色稿、一个被反复修改的动作，记录着创作者长久而安静的工作。</p>
+          <blockquote>每一个创造英雄的人，本身也是英雄。</blockquote>
+        </div>
+      </div>
+      <div class="archive-strip" aria-label="动画幕后工作类别">
+        <span>导演</span><span>美术设计</span><span>原画师</span><span>动画师</span>
+        <span>摄影师</span><span>配音演员</span><span>作曲及声音创作者</span><span>其他幕后工作者</span>
+      </div>
+    </section>
+
+    <!-- 两个文创延伸方向 -->
+    <section class="life section" id="life" aria-labelledby="life-title">
+      <div class="section-heading section-heading--row">
+        <div>
+          <p class="section-number">06 / BEYOND THE SCREEN</p>
+          <h2 id="life-title">从银幕走入生活</h2>
+        </div>
+        <p>经典形象通过沉浸体验与当代文创，进入新的媒介和日常生活。</p>
+      </div>
+
+      <div class="extension-grid">
+        <article class="extension-card">
+          <div class="extension-card__visual" aria-hidden="true">
+            <img src="宣传用图/浪浪山小妖怪：妖你同行.jpg" alt="《浪浪山小妖怪：妖你同行》体验视觉">
+          </div>
+          <p class="archive-code">EXTENSION 01 / XR沉浸体验</p>
+          <h3>《浪浪山小妖怪：妖你同行》</h3>
+          <p>该项目以《浪浪山小妖怪》为内容基础，通过多人协作、沉浸式互动和虚拟现实体验，让观众从观看动画转向进入动画世界。</p>
+        </article>
+        <article class="extension-card" id="trend">
+          <div class="extension-card__visual extension-card__visual--trend" aria-hidden="true">
+            <img src="宣传用图/潮玩英雄.jpg" alt="潮流英雄文创视觉">
+          </div>
+          <p class="archive-code">EXTENSION 02 / 当代文创</p>
+          <h3>潮流英雄</h3>
+          <p>当经典动画角色进入盲盒、玩偶和当代文创，英雄形象也从银幕走进日常生活。潮流不是对经典的简单包装，而是文化记忆在新媒介和新消费语境中的再次生长。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 关于展览与版权提示 -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="section-number">07 / ABOUT</p>
+        <h2 id="about-title">关于本数字项目</h2>
+      </div>
+      <div class="about__content">
+        <p>《繁天录 Online》是基于《繁天录——中国动画英雄潮流特展》内容制作的个人数字策展与前端学习项目，并非浙江美术馆官方数字展厅。</p>
+        <p>动画截图、海报、角色形象、展品图片和创作者资料，在公开发布前都需要核实来源及使用权限。</p>
+        <p class="placeholder-note">当前几何图形和图像区域均为学习阶段占位，不代表正式展品、品牌商品或具体现场效果。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><p class="site-footer__title">繁天录 Online</p><p>We Are All Heroes</p></div>
+    <div class="site-footer__meta"><p>个人数字策展与前端学习项目</p><p>© <span id="current-year">2026</span></p></div>
+  </footer>
+
+  <script src="js/main.js?v=20260817b"></script>
+</body>
+</html>
